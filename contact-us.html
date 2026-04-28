@@ -4,31 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/cesde-IAP-momento2-surveys-felipe-correa/styles/style.css">
+
 </head>
 <body>
     <fieldset>
-        <legend></legend>
+        <legend>Formulario de contacto</legend>
         <form action="">
             <section class="contact_input">
-                <label for="">Ingrese su nombre:
-                    <input type="text" name="" id="" placeholder="Digite nombre" required>
+                <label for=""><strong>Ingrese su nombre: </strong>
+                    <input type="text" name="" id="" placeholder="Digite nombre" required class="caja_texto">
                 </label>
-                <label for="">Email:
-                    <input type="email" name="" id="" placeholder="Digite su email" required>
+                <label for=""><strong>Email: </strong>
+                    <input type="email" name="" id="" placeholder="Digite su email" required class="caja_texto">
                 </label>
-                <label for="">Genero:
-                    <input type="radio" name="" id="">Masculino
-                    <input type="radio" name="" id="">Femenino
-                    <input type="radio" name="" id="">Otro
-                </label>
-                <label for="">Intereses
-                    <input type="checkbox" name="" id="">Lenguajes de programación
-                    <input type="checkbox" name="" id="">Hábitos de estudio en programación
-                    <input type="checkbox" name="" id="">Uso de IA para programar
-                    <input type="checkbox" name="" id="">Git y GitHub
-                    <input type="checkbox" name="" id="">Metodologías ágiles
-                </label>
-                <label for="">Como te enteraste de nosotros?
+
+                <section class="contact_pregunta_genero">
+                    <label for=""><strong>Genero: </strong>
+                        <label for="">masculino
+                            <input type="radio" name="g" id="">
+                        </label>
+                        <label for="">Femenino
+                            <input type="radio" name="g" id="">
+                        </label>
+                        <label for="">Otro
+                            <input type="radio" name="g" id="">
+                        </label>
+                    </label>
+                </section>
+
+                <section class="contact_pregunta_genero">
+                    <label for="" class="label_intereses"> <strong>Intereses</strong>
+                        <label for="">Lenguajes de programación
+                            <input type="checkbox" name="" id="">
+                        </label>
+                        <label for="">Hábitos de estudio en programación
+                            <input type="checkbox" name="" id="">
+                        </label>
+                        <label for="">Uso de IA para programar
+                            <input type="checkbox" name="" id="">
+                        </label>
+                        <label for="">Git y GitHub
+                            <input type="checkbox" name="" id="">
+                        </label>
+                        <label for="">Metodologías ágiles
+                            <input type="checkbox" name="" id="">
+                        </label>
+                    </label>
+                </section>
+
+                <label for=""> <strong>Cómo te enteraste de nosotros?</strong>
                     <select name="" id="">
                         <option value="">Redes sociales</option>
                         <option value="">Amigos o conocidos</option>
@@ -37,8 +62,8 @@
                         <option value="">Publicidad</option>
                     </select>
                 </label>
-                <label for="">Comentarios y sugerencias:
-                    <textarea name="" id="" placeholder="Escriba acá su sugerencia"></textarea>
+                <label for=""><strong>Comentarios y sugerencias: </strong>
+                    <textarea name="" id="" placeholder="Escriba acá su sugerencia" class="caja_texto"></textarea>
                 </label>
             </section>
             <section class="contact-button">

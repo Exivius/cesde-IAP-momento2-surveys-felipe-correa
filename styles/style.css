@@ -1,0 +1,132 @@
+body{
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.index_header{
+    display:flexbox;
+    margin: 80px;
+}
+
+.menu{
+    top: 0;
+    width: 100;
+    background-color: lightgrey;
+    margin: 5px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.main_header{
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+    font-size: x-large;
+}
+
+li a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+li:hover{
+    outline: none;
+    border: solid 1px darkgrey;
+    border-radius: 5px;
+    box-shadow: 1px 1px lightgrey;
+    background-color: white;
+}
+
+.index_bienvenida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index_bienvenida p{
+    display: block;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.index_footer{
+    display: block;
+    margin-top: 10%;
+}
+
+/*Estilos de contact us*/
+
+.contact_input{
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.contact_input label{
+    display: block;
+    margin: 15px;
+}
+
+.caja_texto{
+    border-radius: 5px;
+}
+
+.caja_texto:focus{
+    outline: none;
+    background-color: lightgrey;
+    box-shadow: 2px 2px black;
+}
+
+input[type="checkbox"]:checked{
+    accent-color: lightgray;
+}
+
+input[type="radio"]:checked{
+    accent-color: lightgray;
+}
+
+/*Estilos de survey*/
+.survey_pregunta {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.survey_pregunta label{
+    display: block;
+    margin: 26px;
+}
+
+/*Estilos generales*/
+button{
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: darkgray;
+    color: white;
+    box-shadow: 2px 2px gray;
+}
